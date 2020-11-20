@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/chelse10/rankchoicevoting.chelseairizarry.org/
-    - / -R images $DEPLOYPATH
+    - cp /web -r * $DEPLOYPATH
